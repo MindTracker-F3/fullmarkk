@@ -6,4 +6,5 @@ class PagesConfig(AppConfig):
     name = 'pages'
 print('amonsf')
 print('Hi')
+print('Esraa')
 
