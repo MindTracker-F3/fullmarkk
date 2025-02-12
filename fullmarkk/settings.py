@@ -83,8 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'fullmarkk',
-        "USER": "root",
-        "PASSWORD": "11244",
+         "USER": "root",
+        "PASSWORD": "1988",
         "HOST": "localhost",
         "PORT": "3306",
     }
