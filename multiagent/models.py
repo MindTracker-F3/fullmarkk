@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from analysis.models import Analysis 
+#from analysis.models import Analysis 
 from django.core.validators import MinValueValidator
 # Create your models here.
 
@@ -13,4 +13,4 @@ class MultiAgent(models.Model):
     videos = models.JSONField(default=list)  # قائمة فارغة للفيديوهات
     cookies = models.JSONField(default=list)  # قائمة فارغة للكوكيز
     web_usage = models.JSONField(default=dict)
-    analysis = models.ForeignKey(Analysis, on_delete=models.CASCADE)
+   # analysis = models.ForeignKey(Analysis, on_delete=models.CASCADE)
